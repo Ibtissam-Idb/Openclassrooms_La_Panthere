@@ -91,8 +91,9 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /*background: url("img/texture-paper.png");*/
     background-size: 280px 280px;
+    background-color: rgb(44,35,45,0.3);
 }
 
 .b-parallax {
@@ -285,6 +286,9 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
 }
 
 .navbar {
@@ -639,7 +643,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -722,10 +725,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 h4 {
     color: #333333!important;
 }
@@ -779,13 +778,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C9880A;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #976707!important;
     color: #FFFFFF!important;
+    border: 1px solid rgb(255, 255, 255, 0.5)
 }
 
 .ltc-white {
