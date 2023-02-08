@@ -1044,7 +1044,6 @@ h4 {
 /* LE RESTE DU CODE CI-DESSOUS EST ÉCRIT PAR IBTISSÂM IDBOUIGUIGUANE DANS LE BUT D'OPTIMISER LE SITE.
 CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE PLUS HAUT. */
 
-
 /* ---------- HEADER ---------- */
 
 .navbar-nav a {
@@ -1057,4 +1056,15 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 .navbar-nav a:hover,
 .navbar-nav a:focus {
     border-bottom: 1px solid #2C232D;
+}
+
+/* ---------- BLOC SERVICES ---------- */
+
+#bloc-2-services .citation {
+    display: flex;
+    justify-content: center;
+}
+
+#bloc-2-services h2 {
+    width: 634px;
 }
