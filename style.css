@@ -1068,3 +1068,16 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 #bloc-2-services h2 {
     width: 634px;
 }
+
+/* ---------- FOOTER ---------- */
+
+footer.bloc {
+    background-color: #2C232D;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    color: #fff;
+}
