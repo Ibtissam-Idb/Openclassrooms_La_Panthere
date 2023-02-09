@@ -124,7 +124,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -654,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -1075,9 +1074,43 @@ footer.bloc {
     background-color: #2C232D;
 }
 
+footer .icon-md {
+    color: #fff;
+}
+
+.social.twitter:hover {
+    filter: drop-shadow(0px 0px 3px #1DA1F3);
+}
+
+.social.facebook:hover {
+    filter: drop-shadow(0px 0px 3px #4867AA);
+}
+
+.social.dribbble:hover {
+    filter: drop-shadow(0px 0px 3px #000);
+}
+
+.social.instagram:hover {
+    filter: drop-shadow(0px 0px 3px #DC2E67);
+}
+
 footer ul {
     list-style: none;
     padding: 0;
     margin-top: 10px;
+}
+
+footer .partners-title {
     color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+footer ul a {
+    color: #fff;
+}
+
+footer ul a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
