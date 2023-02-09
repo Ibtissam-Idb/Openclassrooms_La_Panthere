@@ -679,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -712,7 +712,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -1059,14 +1059,49 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 
 /* ---------- BLOC SERVICES ---------- */
 
-#bloc-2-services .citation {
+#bloc-2-services .presentation {
     display: flex;
     justify-content: center;
+}
+
+#bloc-2-services .citation {
+    color: #fff;
+}
+
+#bloc-2-services .citation-bloc {
+    background-color: #5b5761;
+    padding: 20px 0px 10px;
 }
 
 #bloc-2-services h2 {
     width: 634px;
 }
+
+#bloc-2-services .services-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+#bloc-2-services .col-sm-10 {
+    border: 3px solid #5b5761;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#bloc-2-services .icons {
+    color: #c9880a!important;
+    border-color: #c9880a!important;
+    filter: drop-shadow(0px 0px 20px #f2ce87 );
+    font-size: 130px!important;
+}
+
+#bloc-2-services h3 {
+    letter-spacing: 0.3em;
+}
+
+
 
 /* ---------- FOOTER ---------- */
 
