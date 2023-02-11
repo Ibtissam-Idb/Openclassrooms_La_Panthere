@@ -750,11 +750,6 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
-}
-
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -812,16 +807,12 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/christopher-gower-vjMgqUkS8q8-unsplash.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1043,6 +1034,8 @@ h4 {
 /* LE RESTE DU CODE CI-DESSOUS EST ÉCRIT PAR IBTISSÂM IDBOUIGUIGUANE DANS LE BUT D'OPTIMISER LE SITE.
 CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE PLUS HAUT. */
 
+/* -------------------- PAGE D'ACCUEIL -------------------- */
+
 /* ---------- HEADER ---------- */
 
 .navbar-nav a {
@@ -1053,13 +1046,16 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 }
 
 .navbar-nav a:hover,
-.navbar-nav a:focus {
+.navbar-nav a:focus,
+.site-navigation a:hover,
+.site-navigation a:focus {
     border-bottom: 1px solid #2C232D;
 }
 
 /* ---------- BLOC SERVICES ---------- */
 
-#bloc-2-services .presentation {
+#bloc-2-services .presentation,
+#bloc-4-portfolio .presentation {
     display: flex;
     justify-content: center;
 }
@@ -1073,7 +1069,8 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
     padding: 20px 0px 10px;
 }
 
-#bloc-2-services h2 {
+#bloc-2-services h2,
+#bloc-4-portfolio h2 {
     width: 634px;
 }
 
@@ -1101,7 +1098,68 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
     letter-spacing: 0.3em;
 }
 
+/* ---------- BLOC WHAT I DO ---------- */
 
+.black-background {
+    background-color: rgba(44, 35, 45, 0.7);
+    padding: 40px 40px 40px 40px;
+}
+
+#bloc-3-what-i-do h2 {
+    color: #fff;
+}
+
+#bloc-3-what-i-do a {
+    text-decoration: none;
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+#bloc-3-what-i-do a:hover {
+    background-color: #fff;
+    color: #2C232D!important;
+}
+
+/* ---------- BLOC PORTFOLIO ---------- */
+
+#bloc-4-portfolio .col-sm-12.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#bloc-4-portfolio .col-sm-12 p {
+    text-align: justify;
+}
+
+#bloc-4-portfolio .col-sm-12 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#bloc-4-portfolio img {
+    margin: 0;
+}
+
+.portfolio-img {
+    padding: 0;
+}
+
+.portfolio-row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+/* ---------- BLOC CALL TO ACTION ---------- */
+
+#bloc-5-cta h2 {
+    color: #fff;
+    font-family: "Merienda", Verdana, sans-serif;
+    font-size: 40px;
+}
 
 /* ---------- FOOTER ---------- */
 
@@ -1148,4 +1206,12 @@ footer ul a {
 footer ul a:hover {
     color: #fff;
     text-decoration: underline;
+}
+
+/* -------------------- FORM -------------------- */
+
+.site-navigation a {
+    list-style : none;
+    text-decoration: none;
+    padding: 0;
 }
