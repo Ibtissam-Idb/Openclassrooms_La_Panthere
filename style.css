@@ -952,7 +952,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 35px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -998,7 +998,7 @@ h4 {
         margin-top: 20px;
     }
     .voffset-lg {
-        margin-top: 30px;
+        margin-top: 0px;
     }
     form {
         padding: 5px;
@@ -1208,10 +1208,152 @@ footer ul a:hover {
     text-decoration: underline;
 }
 
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 767px) {
+
+    #bloc-1-hero h1 {
+        font-size: 19px;
+    }
+
+    .cta-hero {
+        font-size: 12px;
+        padding: 7px 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    #bloc-2-services h2,
+    #bloc-4-portfolio h2 {
+        max-width: 85%;
+    }
+
+    #bloc-2-services .col-sm-10 {
+        border: none;
+        padding: 0px;
+    }
+
+    h3 {
+        font-size : 19px;
+    }
+
+    #bloc-2-services h3 {
+        letter-spacing: 0.1em;
+    }
+
+    #bloc-2-services .icons {
+        font-size: 85px!important;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #bloc-2-services .citation-bloc {
+        padding: 20px 10px 10px;
+    }
+
+    #bloc-3-what-i-do h2 {
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 600;
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+
+    #bloc-3-what-i-do p {
+        text-align: justify;
+        padding: 0px!important;
+    }
+
+    #bloc-3-what-i-do a {
+        letter-spacing: 0;
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    #bloc-4-portfolio a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    #bloc-4-portfolio img {
+        width: 200px;
+    }
+
+    #bloc-4-portfolio .col-sm-12 h3 {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #bloc-4-portfolio .col-sm-12.reverse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bloc-4-portfolio p {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .portfolio-row {
+        margin-top: 20px;
+    }
+
+    #bloc-4-portfolio .container {
+        padding-bottom: 0px;
+    }
+
+    #bloc-5-cta h2 {
+        font-size : 16px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .icon-md {
+        font-size: 20px!important;
+    }
+
+    footer .partners {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .row.social {
+        font-size: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+    }
+
+    footer .col-sm-12 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}
+
 /* -------------------- FORM -------------------- */
+
+.form-page .navbar .nav {
+    margin-right: 0px;
+}
 
 .site-navigation a {
     list-style : none;
     text-decoration: none;
     padding: 0;
+}
+
+.form-page .site-navigation a:hover {
+    border-bottom: 2px solid #2C232D;
 }
