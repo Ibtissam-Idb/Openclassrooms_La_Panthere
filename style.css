@@ -657,7 +657,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 .hero-bloc-text {
@@ -1060,13 +1060,8 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
     justify-content: center;
 }
 
-#bloc-2-services .citation {
-    color: #fff;
-}
-
 #bloc-2-services .citation-bloc {
-    background-color: #5b5761;
-    padding: 20px 0px 10px;
+    padding: 0px;
 }
 
 #bloc-2-services h2,
@@ -1082,16 +1077,14 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 }
 
 #bloc-2-services .col-sm-10 {
-    border: 3px solid #5b5761;
-    border-radius: 10px;
-    padding: 15px;
+    padding: 0px;
 }
 
 #bloc-2-services .icons {
     color: #c9880a!important;
     border-color: #c9880a!important;
     filter: drop-shadow(0px 0px 20px #f2ce87 );
-    font-size: 130px!important;
+    font-size: 100px!important;
 }
 
 #bloc-2-services h3 {
@@ -1136,7 +1129,7 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 
 #bloc-4-portfolio .col-sm-12 h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 #bloc-4-portfolio img {
@@ -1158,7 +1151,7 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 #bloc-5-cta h2 {
     color: #fff;
     font-family: "Merienda", Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /* ---------- FOOTER ---------- */
@@ -1228,11 +1221,6 @@ footer ul a:hover {
     #bloc-2-services h2,
     #bloc-4-portfolio h2 {
         max-width: 85%;
-    }
-
-    #bloc-2-services .col-sm-10 {
-        border: none;
-        padding: 0px;
     }
 
     h3 {
@@ -1344,6 +1332,20 @@ footer ul a:hover {
 
 /* -------------------- FORM -------------------- */
 
+.form-page .container {
+    width: 100%;
+}
+
+/* ---------- HEADER ---------- */
+
+.form-page header {
+    padding: 0px;
+}
+
+.form-page header button {
+    display: none;
+}
+
 .form-page .navbar .nav {
     margin-right: 0px;
 }
@@ -1351,9 +1353,95 @@ footer ul a:hover {
 .site-navigation a {
     list-style : none;
     text-decoration: none;
-    padding: 0;
+    padding: 10px 15px;
+}
+
+.site-navigation a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid;
 }
 
 .form-page .site-navigation a:hover {
     border-bottom: 2px solid #2C232D;
+}
+
+/* ---------- BLOC 6 ---------- */
+
+#bloc-6 {
+    background: none;
+    padding: 0px;
+}
+
+#bloc-6 .container {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#bloc-6 h1 {
+    margin: 0px;
+    color: #c9880a;
+    font-family: 'Merienda', Helvetica, sans-serif;
+}
+
+#bloc-6 p {
+    margin: 0px;
+}
+
+/* ---------- FORM ---------- */
+
+#form_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 18px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    padding: 3px 20px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.btn-send {
+    margin: 0px;
+}
+
+/* ---------- BLOC 7 ---------- */
+
+#bloc-7 {
+    padding: 0px;
+}
+
+#bloc-7 .container {
+    margin: 0px;
+    padding: 0px;
+}
+
+#bloc-7 p {
+    margin: 35px;
+}
+
+/* ---------- BLOC 8 ---------- */
+
+#bloc-8 p {
+    margin-left: 35px;
+}
+
+/* ---------- FOOTER ---------- */
+
+.form-page footer {
+    padding: 0px;
+}
+
+.form-page footer .container {
+    margin: 0px;
 }
