@@ -1399,6 +1399,10 @@ footer ul a:hover {
     row-gap: 18px;
 }
 
+label {
+    text-align: center;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -1444,4 +1448,63 @@ footer ul a:hover {
 
 .form-page footer .container {
     margin: 0px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 767px) {
+    .link-homepage {
+        display: none;
+    }
+
+    .form-group {
+        max-width: 80%;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .form-group label,
+    .form-group input,
+    .form-group textarea {
+        max-width: 100%;
+    }
+
+    .form-control {
+        padding: 3px 8px;
+    }
+
+    .form-page #bloc-0 img {
+        max-height : 27px;
+    }
+
+    .form-page #bloc-0 .site-navigation {
+        margin-top: 9px;
+        font-size: 12px;
+    }
+
+    #bloc-0 .navbar .nav {
+        border-top: none;
+    }
+
+    #bloc-0 .navbar.row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-bloc-text {
+        font-size: 27px;
+    }
+
+    #bloc-7 p {
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    #bloc-8 p {
+        margin-left: 0px;
+        text-align: center;
+    }
+    
 }
