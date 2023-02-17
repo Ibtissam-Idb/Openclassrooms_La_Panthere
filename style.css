@@ -679,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -712,7 +712,7 @@ h2 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -742,7 +742,7 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
+    margin-bottom: 0px;
     margin-top: 50px;
 }
 
@@ -952,7 +952,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 35px;
+        max-height: 30px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -1071,9 +1071,6 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 
 #bloc-2-services .services-elements {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 20px;
 }
 
 #bloc-2-services .col-sm-10 {
@@ -1088,7 +1085,7 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 }
 
 #bloc-2-services h3 {
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
 }
 
 /* ---------- BLOC WHAT I DO ---------- */
@@ -1129,22 +1126,22 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
 
 #bloc-4-portfolio .col-sm-12 h3 {
     text-align: center;
-    font-size: 26px;
+    font-size: 18px;
 }
 
 #bloc-4-portfolio img {
     margin: 0;
 }
 
+#bloc-4-portfolio .container.bloc-lg {
+    display: flex;
+    flex-direction: column;
+}
+
 .portfolio-img {
     padding: 0;
 }
 
-.portfolio-row {
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-}
 
 /* ---------- BLOC CALL TO ACTION ---------- */
 
@@ -1223,12 +1220,15 @@ footer ul a:hover {
         max-width: 85%;
     }
 
-    h3 {
-        font-size : 19px;
+    #bloc-2-services .services-elements {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
     }
 
     #bloc-2-services h3 {
-        letter-spacing: 0.1em;
+        letter-spacing: 0.2em;
     }
 
     #bloc-2-services .icons {
@@ -1256,10 +1256,14 @@ footer ul a:hover {
         padding: 0px!important;
     }
 
+    #bloc-3-what-i-do .col-sm-12 {
+        padding: 0px;
+    }
+
     #bloc-3-what-i-do a {
         letter-spacing: 0;
         padding: 8px;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     #bloc-4-portfolio a {
@@ -1284,9 +1288,8 @@ footer ul a:hover {
     }
 
     #bloc-4-portfolio p {
-        margin-right: 10px;
-        margin-left: 10px;
         margin-top: 10px;
+        margin-bottom: 30px;
         text-align: center;
     }
 
@@ -1386,10 +1389,6 @@ footer ul a:hover {
     font-family: 'Merienda', Helvetica, sans-serif;
 }
 
-#bloc-6 p {
-    margin: 0px;
-}
-
 /* ---------- FORM ---------- */
 
 #form_1 {
@@ -1407,12 +1406,14 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%
 }
 
 .form-control {
     padding: 3px 20px;
     border-radius: 8px;
     margin-top: 3px;
+    width: 60%;
 }
 
 .btn-send {
@@ -1463,6 +1464,7 @@ label {
 
     label {
         font-size: 14px;
+        width: 100%;
     }
 
     .form-group label,
@@ -1479,6 +1481,12 @@ label {
         max-height : 27px;
     }
 
+    .form-page #bloc-0 .navbar.row {
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+    }
+
     .form-page #bloc-0 .site-navigation {
         margin-top: 9px;
         font-size: 12px;
@@ -1488,9 +1496,8 @@ label {
         border-top: none;
     }
 
-    #bloc-0 .navbar.row {
-        display: flex;
-        justify-content: space-between;
+    #bloc-6 .row {
+        width: 95%;
     }
 
     .hero-bloc-text {
