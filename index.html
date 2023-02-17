@@ -14,6 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
+	<link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
@@ -22,8 +24,6 @@
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
 
 	<title>La Panthère | Agence de Web Design</title>
 
@@ -36,38 +36,39 @@
 
 <body>
 	<!-- Principal conteneur -->
+
+	<!-- bloc-0 -->
+	<header class="bloc bgc-white l-bloc " id="bloc-0">
+		<div class="container bloc-sm">
+
+			<nav class="navbar row">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
+							alt="Logo La Panthère - Page d'accueil" height="40"></a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+						data-target=".navbar-1">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+							class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="index.html">Accueil</a>
+						</li>
+						<li>
+						</li>
+						<li>
+							<a href="page2.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- bloc-0 END -->
+
 	<main class="page-container">
-
-		<!-- bloc-0 -->
-		<header class="bloc bgc-white l-bloc " id="bloc-0">
-			<div class="container bloc-sm">
-
-				<nav class="navbar row">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
-								alt="Logo La Panthère - Page d'accueil" height="40" /></a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
-							data-toggle="collapse" data-target=".navbar-1">
-							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
-								class="icon-bar"></span><span class="icon-bar"></span>
-						</button>
-					</div>
-					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-						<ul class="site-navigation nav navbar-nav">
-							<li>
-								<a href="index.html">Accueil</a>
-							</li>
-							<li>
-							</li>
-							<li>
-								<a href="page2.html">Contact</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</header>
-		<!-- bloc-0 END -->
 
 		<!-- bloc-1-presentation -->
 		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
@@ -76,7 +77,7 @@
 				<div class="row tight-width-whitespace">
 					<div class="col-sm-12">
 						<img src="img/logo.png" lang="fr" class="center-block image-resize-mode" width="100"
-							alt="Logo La Panthère" />
+							alt="Logo La Panthère">
 						<h1 class="text-center hero-bloc-text ">
 							Agence La Panthère
 						</h1>
@@ -96,7 +97,8 @@
 				<div class="row">
 					<div class="col-sm-12 presentation text-center">
 						<h2>
-							L'agence <strong>La Panthère</strong> est une agence de <strong>web design</strong> qui aide les entreprises à devenir <strong>attractibles et visibles</strong> sur Internet.
+							L'agence <strong>La Panthère</strong> est une agence de <strong>web design</strong> qui aide
+							les entreprises à devenir <strong>attractibles et visibles</strong> sur Internet.
 						</h2>
 					</div>
 				</div>
@@ -140,7 +142,10 @@
 				</div>
 				<div class="row voffset-lg voffset citation-bloc">
 					<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-						<p class="col-sm-12 citation text-center"><i>"L'agence La Panthère est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."</i><br>Maxime Guibard, PDG de <i>À vos Fourchettes</i></p>
+						<p class="col-sm-12 citation text-center"><i>"L'agence La Panthère est une excellente agence web
+								! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer
+								à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."</i><br>Maxime
+							Guibard, PDG de <i>À vos Fourchettes</i></p>
 
 					</div>
 				</div>
@@ -165,8 +170,8 @@
 							aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous
 							ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à
 							nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés,
-							qui seront facilement trouvable sur les moteurs de recherche. <br><br><a
-								class="ltc-white" href="page2.html">Contactez notre équipe</a><br>
+							qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white"
+								href="page2.html">Contactez notre équipe</a><br>
 						</p>
 					</div>
 				</div>
@@ -187,75 +192,68 @@
 				<div class="col-sm-12 tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
 						<div class="portfolio-img">
-						<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1"
-							data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img
-								lang="fr"
-								src="img/1.jpg"
-								alt=""
-								class="img-responsive portfolio-thumb" /></a>
+							<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1"
+								data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img
+									lang="fr" src="img/1.jpg" alt="" class="img-responsive portfolio-thumb"></a>
 						</div>
 						<div>
-								<h3 class="mg-md text-center">
-							Refonte d'un site web pour un journal local
-						</h3>
-						<p class="text-center">
-							Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
-						</p>
+							<h3 class="mg-md text-center">
+								Refonte d'un site web pour un journal local
+							</h3>
+							<p class="text-center">
+								Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
+							</p>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="portfolio-img">
-						<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1"
-							data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img
-								lang="fr"
-								src="img/2.jpg" class="img-responsive portfolio-thumb"
-								alt="" /></a>
+							<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1"
+								data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img
+									lang="fr" src="img/2.jpg" class="img-responsive portfolio-thumb" alt=""></a>
 						</div>
 						<div>
-								<h3 class="mg-md text-center">
-							Création d'un site web pour photographes
-						</h3>
-						<p class="text-center">
-							Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
-						</p>
+							<h3 class="mg-md text-center">
+								Création d'un site web pour photographes
+							</h3>
+							<p class="text-center">
+								Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
+							</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
 						<div class="portfolio-img">
-						<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1"
-							data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img
-								lang="fr"
-								src="img/3.jpg" class="img-responsive portfolio-thumb"
-								alt="" /></a>
-							</div>
-							<div>
-								<h3 class="mg-md text-center">
-							Création d'un site internet pour un voyageur
-						</h3>
-						<p class="text-center">
-							Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les
-							articles de ce voyageur.
-						</p>
-					</div>
+							<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1"
+								data-caption="Création d'un site internet pour un voyageur"
+								data-frame="snapshot-lb"><img lang="fr" src="img/3.jpg"
+									class="img-responsive portfolio-thumb" alt=""></a>
+						</div>
+						<div>
+							<h3 class="mg-md text-center">
+								Création d'un site internet pour un voyageur
+							</h3>
+							<p class="text-center">
+								Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les
+								articles de ce voyageur.
+							</p>
+						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="portfolio-img">
-						<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1"
-							data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img
-								lang="fr"
-								src="img/4.jpg" class="img-responsive portfolio-thumb"
-								alt="" /></a>
+							<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1"
+								data-caption="Conception d'un site pour une agence de mariage"
+								data-frame="snapshot-lb"><img lang="fr" src="img/4.jpg"
+									class="img-responsive portfolio-thumb" alt=""></a>
 						</div>
 						<div>
-						<h3 class="mg-md text-center">
-							Conception d'un site pour une agence de mariage
-						</h3>
-						<p class="text-center">
-							Nous avons travaillé avec cette agence pour créer un site internet permettant la
-							présentation détaillée de leurs prestations.
-						</p>
+							<h3 class="mg-md text-center">
+								Conception d'un site pour une agence de mariage
+							</h3>
+							<p class="text-center">
+								Nous avons travaillé avec cette agence pour créer un site internet permettant la
+								présentation détaillée de leurs prestations.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -290,17 +288,20 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social twitter" href="https://twitter.com/?lang=fr"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social twitter" href="https://twitter.com/?lang=fr"><span
+											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social facebook" href="https://fr-fr.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social facebook" href="https://fr-fr.facebook.com/"><span
+											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social dribbble" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social dribbble" href="https://dribbble.com/"><span
+											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
