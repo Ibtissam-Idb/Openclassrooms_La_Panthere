@@ -1321,10 +1321,6 @@ footer ul a:hover {
     padding: 0px;
 }
 
-.form-page header button {
-    display: none;
-}
-
 .form-page .navbar .nav {
     margin-right: 0px;
 }
@@ -1461,6 +1457,7 @@ label {
         width: 100%;
         display:flex;
         justify-content: space-between;
+        flex-direction: column;
     }
 
     .form-page #bloc-0 .site-navigation {
