@@ -1390,6 +1390,7 @@ label {
 
 .btn-send {
     margin: 0px;
+    width: 30%;
 }
 
 /* ---------- BLOC 7 ---------- */
@@ -1424,6 +1425,12 @@ label {
 }
 
 /* RESPONSIVE DESIGN */
+
+@media (min-width: 768px) {
+    .form-page .navbar img {
+        margin-left: 20px;
+    }
+}
 
 @media (max-width: 767px) {
     .link-homepage {
@@ -1463,6 +1470,10 @@ label {
     .form-page #bloc-0 .site-navigation {
         margin-top: 9px;
         font-size: 12px;
+    }
+
+    .btn-send {
+        padding: 7px 10px;
     }
 
     #bloc-0 .navbar .nav {
