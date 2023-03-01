@@ -540,11 +540,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url(img/agence-la-panthere.jpg)
+    background-image: url(https://ibtissam-idb.github.io/lapanthere/img/agence-la-panthere.jpg)
 }
 
 .bg-presentation {
-    background-image: url(img/christopher-gower-vjMgqUkS8q8-unsplash.jpg)
+    background-image: url(https://ibtissam-idb.github.io/lapanthere/img/christopher-gower-vjMgqUkS8q8-unsplash.jpg)
 }
 
 @media (max-width:1024px) {
@@ -709,72 +709,61 @@ h4 {
     }
 }
 
-/* LE RESTE DU CODE CI-DESSOUS EST ÉCRIT PAR IBTISSÂM IDBOUIGUIGUANE DANS LE BUT D'OPTIMISER LE SITE.
-CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE PLUS HAUT. */
-
-/* -------------------- PAGE D'ACCUEIL -------------------- */
-
-/* ---------- HEADER ---------- */
-
 .navbar-nav a {
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: .1em;
     font-weight: 700;
-    color: #2C232D;
+    color: #2c232d
 }
 
-.navbar-nav a:hover,
 .navbar-nav a:focus,
-.site-navigation a:hover,
-.site-navigation a:focus {
-    border-bottom: 1px solid #2C232D;
+.navbar-nav a:hover,
+.site-navigation a:focus,
+.site-navigation a:hover {
+    border-bottom: 1px solid #2c232d
 }
-
-/* ---------- BLOC SERVICES ---------- */
 
 #bloc-2-services .presentation,
 #bloc-4-portfolio .presentation {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 #bloc-2-services .citation-bloc {
-    padding: 0px;
+    padding: 0
 }
 
 #bloc-2-services h2,
 #bloc-4-portfolio h2 {
-    width: 634px;
+    width: 634px
 }
 
 #bloc-2-services .services-elements {
-    display: flex;
+    display: flex
 }
 
 #bloc-2-services .col-sm-10 {
-    padding: 0px;
+    padding: 0
 }
 
 #bloc-2-services .icons {
     color: #c9880a !important;
     border-color: #c9880a !important;
-    filter: drop-shadow(0px 0px 20px #f2ce87);
-    font-size: 100px !important;
+    filter: drop-shadow(0 0 20px #f2ce87);
+    font-size: 100px !important
 }
 
 #bloc-2-services h3 {
-    letter-spacing: 0.2em;
+    letter-spacing: .2em
 }
 
-/* ---------- BLOC WHAT I DO ---------- */
-
 .black-background {
-    background-color: rgba(44, 35, 45, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: rgba(44, 35, 45, .7);
+    padding: 40px 40px 40px 40px
 }
 
 #bloc-3-what-i-do h2 {
-    color: #fff;
+    color: #fff
 }
 
 #bloc-3-what-i-do a {
@@ -783,142 +772,121 @@ CET OBJECTIF AMÈNERA PROBABLEMENT À LA SUPPRESSION DE CERTAINES LIGNES DU CODE
     border: 1px solid #fff;
     border-radius: 10px;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: .1rem
 }
 
 #bloc-3-what-i-do a:hover {
     background-color: #fff;
-    color: #2C232D !important;
-}
-
-/* ---------- BLOC PORTFOLIO ---------- */
-
-#bloc-4-portfolio .col-sm-12.reverse {
-    display: flex;
-    flex-direction: row-reverse;
+    color: #2c232d !important
 }
 
 #bloc-4-portfolio .col-sm-12 p {
-    text-align: justify;
+    text-align: justify
 }
 
 #bloc-4-portfolio .col-sm-12 h3 {
     text-align: center;
-    font-size: 18px;
+    font-size: 18px
 }
 
 #bloc-4-portfolio img {
-    margin: 0;
+    margin: 0
 }
 
 #bloc-4-portfolio .container.bloc-lg {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .portfolio-img {
-    padding: 0;
+    padding: 0
 }
-
-
-/* ---------- BLOC CALL TO ACTION ---------- */
 
 #bloc-5-cta h2 {
     color: #fff;
-    font-family: "Merienda", Verdana, sans-serif;
-    font-size: 30px;
+    font-family: Merienda, Verdana, sans-serif;
+    font-size: 30px
 }
 
-/* ---------- FOOTER ---------- */
-
 footer.bloc {
-    background-color: #2C232D;
+    background-color: #2c232d
 }
 
 footer .icon-md {
-    color: #fff;
+    color: #fff
 }
 
 .social.twitter:hover {
-    filter: drop-shadow(0px 0px 3px #1DA1F3);
+    filter: drop-shadow(0 0 3px #1da1f3)
 }
 
 .social.facebook:hover {
-    filter: drop-shadow(0px 0px 3px #4867AA);
+    filter: drop-shadow(0 0 3px #4867aa)
 }
 
 .social.dribbble:hover {
-    filter: drop-shadow(0px 0px 3px #000);
+    filter: drop-shadow(0 0 3px #000)
 }
 
 .social.instagram:hover {
-    filter: drop-shadow(0px 0px 3px #DC2E67);
+    filter: drop-shadow(0 0 3px #dc2e67)
 }
 
 footer ul {
     list-style: none;
     padding: 0;
-    margin-top: 10px;
-}
-
-footer .partners-title {
-    color: #fff;
-    text-decoration: underline;
-    font-weight: 600;
+    margin-top: 10px
 }
 
 footer ul a {
-    color: #fff;
+    color: #fff
 }
 
 footer ul a:hover {
     color: #fff;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
-/* RESPONSIVE DESIGN */
-
-@media (max-width: 767px) {
-
+@media (max-width:767px) {
     #bloc-1-hero h1 {
-        font-size: 19px;
+        font-size: 19px
     }
 
     .cta-hero {
         font-size: 12px;
-        padding: 7px 22px;
+        padding: 7px 22px
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 16px
     }
 
     #bloc-2-services h2,
     #bloc-4-portfolio h2 {
-        max-width: 85%;
+        max-width: 85%
     }
 
     #bloc-2-services .services-elements {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        row-gap: 20px;
+        row-gap: 20px
     }
 
     #bloc-2-services h3 {
-        letter-spacing: 0.2em;
+        letter-spacing: .2em
     }
 
     #bloc-2-services .icons {
-        font-size: 85px !important;
+        font-size: 85px !important
     }
 
     p {
-        font-size: 14px;
+        font-size: 14px
     }
 
     #bloc-2-services .citation-bloc {
-        padding: 20px 10px 10px;
+        padding: 20px 10px 10px
     }
 
     #bloc-3-what-i-do h2 {
@@ -926,154 +894,135 @@ footer ul a:hover {
         font-size: 15px;
         font-weight: 600;
         padding-right: 0 !important;
-        padding-left: 0 !important;
+        padding-left: 0 !important
     }
 
     #bloc-3-what-i-do p {
         text-align: justify;
-        padding: 0px !important;
+        padding: 0 !important
     }
 
     #bloc-3-what-i-do .col-sm-12 {
-        padding: 0px;
+        padding: 0
     }
 
     #bloc-3-what-i-do a {
         letter-spacing: 0;
         padding: 8px;
-        font-size: 12px;
+        font-size: 12px
     }
 
     #bloc-4-portfolio a {
         display: flex;
         justify-content: center;
-        margin-bottom: 15px;
+        margin-bottom: 15px
     }
 
     #bloc-4-portfolio img {
-        width: 200px;
+        width: 200px
     }
 
     #bloc-4-portfolio .col-sm-12 h3 {
         font-size: 18px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    #bloc-4-portfolio .col-sm-12.reverse {
-        display: flex;
-        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0
     }
 
     #bloc-4-portfolio p {
         margin-top: 10px;
         margin-bottom: 30px;
-        text-align: center;
+        text-align: center
     }
 
     .portfolio-row {
-        margin-top: 20px;
+        margin-top: 20px
     }
 
     #bloc-4-portfolio .container {
-        padding-bottom: 0px;
+        padding-bottom: 0
     }
 
     #bloc-5-cta h2 {
-        font-size: 16px;
+        font-size: 16px
     }
 
     footer p {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .icon-md {
-        font-size: 20px !important;
-    }
-
-    footer .partners {
-        display: flex;
-        justify-content: center;
-        text-align: center;
+        font-size: 20px !important
     }
 
     footer .row.social {
         font-size: 10px;
         display: flex;
         justify-content: space-evenly;
-        width: 70%;
+        width: 70%
     }
 
     footer .col-sm-12 {
         display: flex;
         flex-direction: column;
-        row-gap: 15px;
+        row-gap: 15px
     }
 }
 
-/* -------------------- FORM -------------------- */
-
 .form-page .container {
-    width: 100%;
+    width: 100%
 }
 
-/* ---------- HEADER ---------- */
-
 .form-page header {
-    padding: 0px;
+    padding: 0
 }
 
 .form-page .navbar .nav {
-    margin-right: 0px;
+    margin-right: 0
 }
 
 .site-navigation a {
     list-style: none;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 15px
 }
 
 .site-navigation a:hover {
     text-decoration: none;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid
 }
 
 .form-page .site-navigation a:hover {
-    border-bottom: 2px solid #2C232D;
+    border-bottom: 2px solid #2c232d
 }
 
-/* ---------- BLOC 6 ---------- */
-
 #bloc-6 {
-    background: none;
-    padding: 0px;
+    background: 0 0;
+    padding: 0
 }
 
 #bloc-6 .container {
-    margin: 0px;
+    margin: 0;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 50px 0px;
+    padding: 50px 0
 }
 
 #bloc-6 h1 {
-    margin: 0px;
+    margin: 0;
     color: #c9880a;
-    font-family: 'Merienda', Helvetica, sans-serif;
+    font-family: Merienda, Helvetica, sans-serif
 }
-
-/* ---------- FORM ---------- */
 
 #form_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 18px;
+    row-gap: 18px
 }
 
 label {
-    text-align: center;
+    text-align: center
 }
 
 .form-group {
@@ -1087,117 +1036,104 @@ label {
     padding: 3px 20px;
     border-radius: 8px;
     margin-top: 3px;
-    width: 60%;
+    width: 60%
 }
 
 .btn-send {
-    margin: 0px;
-    width: 30%;
+    margin: 0;
+    width: 30%
 }
 
-/* ---------- BLOC 7 ---------- */
-
 #bloc-7 {
-    padding: 0px;
+    padding: 0
 }
 
 #bloc-7 .container {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0
 }
 
 #bloc-7 p {
-    margin: 35px;
+    margin: 35px
 }
-
-/* ---------- BLOC 8 ---------- */
 
 #bloc-8 p {
-    margin-left: 35px;
+    margin-left: 35px
 }
 
-/* ---------- FOOTER ---------- */
-
 .form-page footer {
-    padding: 0px;
+    padding: 0
 }
 
 .form-page footer .container {
-    margin: 0px;
+    margin: 0
 }
 
-/* RESPONSIVE DESIGN */
-
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .form-page .navbar img {
-        margin-left: 20px;
+        margin-left: 20px
     }
 }
 
-@media (max-width: 767px) {
-    .link-homepage {
-        display: none;
-    }
-
+@media (max-width:767px) {
     .form-group {
-        max-width: 80%;
+        max-width: 80%
     }
 
     label {
         font-size: 14px;
-        width: 100%;
+        width: 100%
     }
 
-    .form-group label,
     .form-group input,
+    .form-group label,
     .form-group textarea {
-        max-width: 100%;
+        max-width: 100%
     }
 
     .form-control {
-        padding: 3px 8px;
+        padding: 3px 8px
     }
 
     .form-page #bloc-0 img {
-        max-height: 27px;
+        max-height: 27px
     }
 
     .form-page #bloc-0 .navbar.row {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: column
     }
 
     .form-page #bloc-0 .site-navigation {
         margin-top: 9px;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .btn-send {
-        padding: 7px 10px;
+        padding: 7px 10px
     }
 
     #bloc-0 .navbar .nav {
-        border-top: none;
+        border-top: none
     }
 
     #bloc-6 .row {
-        width: 95%;
+        width: 95%
     }
 
     .hero-bloc-text {
-        font-size: 27px;
+        font-size: 27px
     }
 
     #bloc-7 p {
         text-align: center;
-        line-height: 1.5em;
+        line-height: 1.5em
     }
 
     #bloc-8 p {
-        margin-left: 0px;
-        text-align: center;
+        margin-left: 0;
+        text-align: center
     }
-
 }
